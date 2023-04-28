@@ -1,5 +1,5 @@
 body {
-	background-color:#E5E5E5;
+	background-color: #E5E5E5;
 	margin: 50px;
 }
 
@@ -13,6 +13,8 @@ nav {
 
 .nav {
 	padding: 20px;
+	text-decoration: none;
+	color: black;
 }
 
 section {
