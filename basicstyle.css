@@ -1,0 +1,25 @@
+body {
+	background-color:#E5E5E5;
+	margin: 50px;
+}
+
+header {
+	margin: 30px;
+}
+
+nav {
+	padding-left: 10px;
+}
+
+.nav {
+	padding: 20px;
+}
+
+section {
+	padding: 30px;
+}
+
+footer {
+	font-size: 12px;
+	margin: 20px;
+}
