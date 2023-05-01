@@ -1,6 +1,7 @@
 body {
 	background-color: #E5E5E5;
 	margin: 50px;
+	color: #1A2130;
 }
 
 header {
@@ -12,9 +13,13 @@ nav {
 }
 
 .nav {
-	padding: 20px;
+	margin: 20px;
 	text-decoration: none;
-	color: black;
+	color: #1A2130;
+}
+
+hr {
+	border: 1px solid #78797e;
 }
 
 section {
