@@ -15,7 +15,34 @@
 	<hr>
 
 	<section>
-		<p>Main of VIVIE</p>
+		<img id="img_main" src="img/vivie/img_main1.jpg" alt="vivie">
+		<script>
+			let image = document.getElementById("img_main");
+			let i;
+			let arr = new Array();
+
+			for (i = 0; i < 10; i++) {
+				arr[i] = "img/vivie/img_main0.jpg";
+			}
+			for (i = 10; i < 22; i++) {
+				arr[i] = "img/vivie/img_main" + (i-9) + ".jpg";
+			}
+			for (i = 22; i < 41; i++) {
+				arr[i] = "img/vivie/img_main13.jpg";
+			}
+			
+			function images() {
+				if (i < 40) {
+					i++;
+				}
+				else {
+					i = 0;
+				}
+				image.src = arr[i];
+			}
+
+			setInterval("images()", 100);
+		</script>
 	</section>
 	
 	<footer>Copyright 2023. 윤영은 All rights reseved.</footer>
