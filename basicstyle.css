@@ -26,6 +26,11 @@ section {
 	padding: 30px;
 }
 
+.links {
+	text-decoration: none;
+	color: #1A2130;
+}
+
 footer {
 	font-size: 12px;
 	margin: 20px;
