@@ -1,9 +1,10 @@
 # Mid-Term-Project
 
 단국대학교 소프트웨어학과 32212896 윤영은
+
 2023-1학기 오픈소스SW활용 4분반 송영상 교수님
 
-## 중간고사 대체과제
+### 중간고사 대체과제
 - Github
   - 'Mid-Term-Project' Repository를 생성해서 작업
   - 최소 10회이상 Commit
